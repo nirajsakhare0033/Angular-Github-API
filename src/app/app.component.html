@@ -5,4 +5,18 @@
     <a routerLink="/">{{ title }}</a>
   </h1>
 </div>
+
+<button (click)="randomColor()" [ngStyle]="{Color:this.color}">Get Random Color </button>
+<h1 [style.color]="color">This is randomColor When You Click</h1>
+<table [border]="this.thikness" [bgColor]="this.color">
+  <tr>
+    <td>Year</td>
+  </tr>
+  <tr>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td>2022</td>
+  </tr>
+</table>
 <router-outlet></router-outlet>
