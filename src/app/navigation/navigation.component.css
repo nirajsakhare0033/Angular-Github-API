@@ -1,0 +1,18 @@
+nav{
+  height: 40px;
+  display: block;
+  width: 100%;
+  background: tomato;
+  list-style-type: none;
+}
+nav li{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 12px 20px 5px;
+  border-bottom: 1px solid wheat;
+  display: inline-block;
+}
+nav li a{
+  color: whitesmoke;
+  text-decoration: none;
+}

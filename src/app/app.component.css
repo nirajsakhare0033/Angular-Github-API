@@ -1,0 +1,11 @@
+h1{
+  text-align: center;
+}:host{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+.p20{
+  padding: 20px;
+}
